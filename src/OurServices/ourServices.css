@@ -1,0 +1,15 @@
+.list-style {
+    list-style: none;
+    text-decoration: underline;
+    margin: 0;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.products {
+    background-color: #fcfcfc;
+    display: inline-block;
+    padding: 20px;
+}
+
+

@@ -1,0 +1,65 @@
+.nav {
+    text-align: center;
+    display: flex;
+    background-color: #abdca7;
+    margin: 0;
+    padding: 0;
+    height: 72px;
+}
+
+.size {
+    display: none;
+}
+
+.nav-item {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    animation-delay: .1s;
+}
+
+.about-us {
+    animation-delay: .2s;
+}
+
+.our-process {
+    animation-delay: .3s;
+}
+
+.our-services {
+    animation-delay: .4s;
+}
+
+.resources {
+    animation-delay: .5s;
+}
+
+.articles {
+    animation-delay: .6s;
+}
+
+.contact-us {
+    animation-delay: .7s;
+}
+
+.icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1050px) {
+    .size {
+        display: inherit;
+    }
+    .icon {
+        display: inherit;
+    }
+    .nav-item {
+        height: 30px;
+    }
+
+}

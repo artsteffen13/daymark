@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.container {
+    padding-top: 40px;
+    max-width: 30%;
+    min-width: 350px;
+    background-color: #fcfcfc;
+    margin: 20px 0;
+}

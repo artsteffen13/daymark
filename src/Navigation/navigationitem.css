@@ -1,0 +1,45 @@
+.navigation {
+    display: block;
+    width: 100%;
+    font: inherit;
+    font-size: 130%;
+    color: #323232;
+    box-sizing: border-box;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #323232;
+    border-bottom: 4px solid transparent;
+    padding: 20px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.navigation a:hover,
+.navigation a:active,
+.navigation a.active {
+    border-bottom: 4px solid #248e38;
+    background: rgba(0, 0, 0, .2);
+    color: white;
+    transition: .5s;
+}
+
+@media (max-width: 1049px) {
+
+    .navigation a {
+        padding: 10px 5px;
+        border: 0;
+        border-bottom: transparent;
+        margin: 10% 0;
+    }
+    .navigation a:hover,
+    .navigation a:active,
+    .navigation a.active {
+        border-bottom: 0 transparent;
+        background: rgba(0, 0, 0, .2);
+        color: white;
+        transition: .5s;
+    }
+}

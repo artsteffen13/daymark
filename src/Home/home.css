@@ -1,0 +1,20 @@
+.group-img {
+    height: 300px;
+}
+
+.around-image {
+    background: linear-gradient(40deg, #323232, #bcbcbc, #323232);
+}
+
+.welcome-text-box {
+    border-left: 5px solid #abdca7;
+    border-right: 5px solid #abdca7;
+    padding: 0 0 20px;
+}
+
+@media (max-width: 500px) {
+    .group-img {
+        height: auto;
+        width: 300px;
+    }
+}

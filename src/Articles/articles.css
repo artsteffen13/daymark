@@ -1,0 +1,67 @@
+form input,
+form textarea{
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #248e38;
+    font-size: 120%;
+
+    box-shadow: 2px 2px 5px #323232;
+}
+
+form input:hover,
+form textarea:hover{
+    border: 2px solid #afd91a;
+}
+
+form input:focus,
+form textarea:focus{
+    border: 2px solid yellow;
+    box-shadow: 2px 2px 5px #afd91a;
+}
+
+form input {
+    height: 20px;
+    padding: 5px 2px;
+    width: 50%;
+}
+
+form textarea {
+    height: 400px;
+    width: 80%;
+    font: inherit;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color: #abdca7;
+    width: 100px;
+    height: 50px;
+    font: inherit;
+    font-size: 150%;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #323232;
+    cursor: pointer;
+    transition: .5s;
+    padding: 0;
+}
+
+button:hover,
+button:active {
+    background-color: #afd91a;
+}
+
+.posts p{
+    text-align: left;
+    white-space: pre-line;
+}
+
+.posts h2 {
+    text-decoration: underline;
+    margin: 10px 30px;
+}
+
+.posts h1 {
+    margin: 0 30px 20px 30px;
+    padding-top: 20px;
+}

@@ -1,0 +1,16 @@
+.item li,
+.item a {
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+}
+
+.item li:active,
+.item li:hover ,
+.item li a:hover,
+.item li a:active {
+    background-color: lightgray;
+    color: #248e38;
+    cursor: pointer;
+    transition: .5s;
+}

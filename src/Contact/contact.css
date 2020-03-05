@@ -1,0 +1,39 @@
+.container2 {
+    width: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container2 img {
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.container2 p {
+    margin-bottom: 40px;
+    min-width: 350px;
+    padding: 0;
+
+}
+
+.container2 a {
+    color: #248e38;
+    display: block;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+    border: 0;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
