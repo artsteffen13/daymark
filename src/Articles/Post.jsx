@@ -13,13 +13,7 @@ const Post = (props) => {
                 <h2><em>Written by {props.author}</em></h2>
                 <p>{props.content.slice(0, 300)}...<Link
                     to={{
-                        pathname: '/articles/' + props.title, state: {
-                            title: props.title,
-                            submittedOn: props.submittedOn,
-                            submittedBy: props.submittedBy,
-                            author: props.author,
-                            content: props.content
-                        }
+                        pathname: '/articles/singlearticle?' + props.title
                     }}>Read
                     More</Link></p>
             </ScrollAnimation>

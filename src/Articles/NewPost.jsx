@@ -19,6 +19,7 @@ const NewPost = () => {
 
     useEffect(() => {
         loginChange();
+        //eslint-disable-next-line
     },[]);
 
     const textChange = (e) => {
